@@ -31,6 +31,8 @@ public class Enums {
         Level3 level3 = Level3.HIGH;
 
         System.out.println(level3.sayHello()); // can create and implement unique logic per enum constant through abstract methods
+
+        System.out.println(level2.name()); // returns the constant's exact name, but .toString() should be preferred. read docs of this method for detail, this is a method for "specialized situation"
     }
 
     public static void iterateEnum() {
