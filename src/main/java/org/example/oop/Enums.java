@@ -77,7 +77,7 @@ enum Level2 {
 
     // all enum constructors are always private
     Level2(int number, String hello) {
-        this.number = number; // this constructor is used by the above enum values when called to self-assign values.
+        this.number = number; // this constructor is used by the above enum constants when called to self-assign values.
                                 // I think of this behaviour to be similar to a mini-class,
                                 // each value is using enum's constructor to assign themselves a value,
                                 // but they cannot do this without a field variable,
