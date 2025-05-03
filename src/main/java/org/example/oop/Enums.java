@@ -83,7 +83,7 @@ enum Level2 {
                                 // but they cannot do this without a field variable,
                                 // this can be thought as each enum constant has a different instance of the field variable inside them
 
-        this.hello = hello; // upon introducing this variable, I had to add a string value as a parameter to each of the enum values
+        this.hello = hello; // upon introducing this variable, I had to add a string value as a parameter to each of the enum constants
                             // which confirms that they are almost like automated objects using the constructor of the scope that they are in
     }
 
