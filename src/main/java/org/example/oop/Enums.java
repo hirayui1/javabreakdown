@@ -79,9 +79,9 @@ enum Level2 {
     Level2(int number, String hello) {
         this.number = number; // this constructor is used by the above enum constants when called to self-assign values.
                                 // I think of this behaviour to be similar to a mini-class,
-                                // each value is using enum's constructor to assign themselves a value,
+                                // each constant is using enum's constructor to assign themselves a value,
                                 // but they cannot do this without a field variable,
-                                // this can be thought as each enum value has a different instance of the field variable inside them
+                                // this can be thought as each enum constant has a different instance of the field variable inside them
 
         this.hello = hello; // upon introducing this variable, I had to add a string value as a parameter to each of the enum values
                             // which confirms that they are almost like automated objects using the constructor of the scope that they are in
